@@ -32,7 +32,7 @@ if mode == "Semester GPA":
     total_grade_points = 0.0
 
     for course_index in range(1, number_of_courses + 1):
-        st.write("**Course", course_index, "**")
+        st.write("Course", course_index)
 
         credit_hours = st.number_input(
             f"Credit hours (Course {course_index})",
