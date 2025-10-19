@@ -78,7 +78,7 @@ if mode == "CGPA":
     total_weighted_points = 0.0
 
     for semester_index in range(1, number_of_semesters + 1):
-        st.write("**Semester", semester_index, "**")
+        st.write("Semester", semester_index)
 
         semester_credit_hours = st.number_input(
             f"Total credit hours (Semester {semester_index})",
