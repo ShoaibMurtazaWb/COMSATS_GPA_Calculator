@@ -14,7 +14,7 @@ grade_points_map = {
     'F': 0.00
 }
 
-st.title("🎓 GPA / CGPA Calculator (Basic & Clear Variables)")
+st.title("🎓 GPA / CGPA Calculator")
 
 mode = st.radio("Choose one:", ["Semester GPA", "CGPA"])
 
